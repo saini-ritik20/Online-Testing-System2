@@ -1,0 +1,12 @@
+{% extends 'main.html' %}
+
+{%block title%} Welcome to Online Testing System {%endblock%}
+{%block top%}
+<a href="{% url 'OTS:registrationForm' %}">Signup</a>
+<a href="{% url 'OTS:login' %}">Login</a>
+{%endblock%}
+
+{%block content%}
+<p>The Online Testing System is a dynamic and user-friendly web application developed using the Django framework in Python. This system enables educational institutions, businesses, and individuals to create, manage, and administer online assessments with ease and efficiency. The platform supports multiple-choice, short-answer, and other question types, providing real-time grading and feedback for participants. Designed with a secure and scalable architecture, it allows administrators to manage user roles, control access, and monitor exam integrity, while participants benefit from a streamlined, interactive testing experience accessible from any device.</p>
+
+{%endblock%}
